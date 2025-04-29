@@ -68,3 +68,124 @@ img {
     flex-direction: column;
     gap: 1em;
 }
+
+.prep-time > ul::marker {
+    color: #682944;
+}
+
+.ingredients {
+    margin: 1.5em;
+    max-width: 430px;
+}
+
+.ingredients > h2 {
+    font-family: "YoungSerif-Regular";
+    font-size: 1.5em;
+    color: #714334;
+}
+
+.ingredients > ul {
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-top: 1em;
+    color: #5a5653;
+    font-weight: 400;
+    font-family: "Outfit-Variable";
+    font-size: 1em;
+}
+
+.ingredients > ul::marker {
+    color: #714334;
+}
+
+.instructions {
+    margin: 1.5em;
+    max-width: 430px;
+}
+
+.instructions > h2 {
+    font-family: "YoungSerif-Regular";
+    font-size: 1.5em;
+    color: #714334;
+}
+
+.instructions > ol {
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-top: 1em;
+    color: #5a5653;
+    font-family: "Outfit-Variable";
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.divider {
+    max-width: 430px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.nutrition {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 1.5em;
+    max-width: 430px;
+}
+
+.nutrition > h2 {
+    color: #714334;
+    font-family: "YoungSerif-Regular";
+    font-size: 1.5em;
+}
+
+.nutrition > p {
+    font-family: "Outfit-Variable";
+    font-size: 1em;
+    color: #5a5653;
+    font-weight: 400;
+}
+
+table {
+    max-width: 430px;
+    border-collapse: collapse;
+}
+
+td {
+    border-bottom: 1px solid #e0e0e0;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+.nutrient-name {
+    font-family: "Outfit-Variable";
+    color: #5a5653;
+    font-size: 1em;
+}
+
+.nutrient-value {
+    font-family: "Outfit-Variable";
+    color: #714334;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.attribution {
+    font-family: "Outfit-Variable";
+    text-align: center;
+    font-size: 0.75em;
+    color: #5a5653;
+    padding: 1em;
+}
