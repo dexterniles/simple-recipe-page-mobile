@@ -15,7 +15,7 @@
 }
 
 body {
-    max-width: calc(100dvh - 1em);
+    max-width: calc(100dvh - 2em);
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@ body {
 }
 
 img {
-    max-width: calc(100dvh - 1em);
+    max-width: calc(100dvh - 2em);
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
     object-fit: cover;
