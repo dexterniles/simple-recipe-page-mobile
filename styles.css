@@ -37,11 +37,34 @@ img {
 .recipe-title > h1 {
     font-family: "YoungSerif-Regular";
     font-size: 2.5em;
+    color: #353432;
 }
 
 .recipe-title > p {
     font-family: "Outfit-Variable";
     font-size: 1em;
     margin-top: 1em;
+    color: #5a5653;
 }
 
+.prep-time {
+    margin: 1.5em;
+    max-width: 430px;
+    background-color: #fff7fc;
+    padding: 1em;
+}
+
+.prep-time > h3 {
+    color: #682944;
+    font-family: "Outfit-Variable";
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+.prep-time > ul {
+    margin-left: 1em;
+    color: #524847;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
