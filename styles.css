@@ -15,7 +15,7 @@
 }
 
 body {
-    max-width: calc(100dvh);
+    max-width: calc(100dvh - 1em);
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ img {
 }
 
 .recipe-title {
-    max-width: 100dvh;
+    max-width: 90dvh;
     font-family: "YoungSerif-Regular";
     text-align: center;
 }
