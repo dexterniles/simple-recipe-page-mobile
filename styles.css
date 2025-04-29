@@ -31,6 +31,17 @@ img {
 
 .recipe-title {
     max-width: 430px;
-    font-family: "YoungSerif-Regular";
-    text-align: center;
+    padding: 1.5em;
 }
+
+.recipe-title > h1 {
+    font-family: "YoungSerif-Regular";
+    font-size: 2.5em;
+}
+
+.recipe-title > p {
+    font-family: "Outfit-Variable";
+    font-size: 1em;
+    margin-top: 1em;
+}
+
