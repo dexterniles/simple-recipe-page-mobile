@@ -27,8 +27,6 @@ img {
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
     object-fit: cover;
-    overflow: hidden;
-    padding: 1em;
 }
 
 .recipe-title {
