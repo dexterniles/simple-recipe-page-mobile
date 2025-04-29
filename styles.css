@@ -4,3 +4,34 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Outfit-Variable";
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "YoungSerif-Regular";
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body {
+    max-width: calc(100dvh);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    max-width: calc(100dvh - 1em);
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.recipe-title {
+    max-width: 100dvh;
+    font-family: "YoungSerif-Regular";
+    text-align: center;
+}
